@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/inputHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hour_hint"
+        android:inputType="time"
+        android:autofillHints="time"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/inputSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/subject_hint"
+        android:inputType="text"
+        android:autofillHints="text"
+        android:padding="16dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_class"
+        android:minHeight="48dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:minHeight="48dp"
+        android:padding="16dp" />
+</LinearLayout>

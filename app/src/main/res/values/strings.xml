@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">prueba_Sonia</string>
+    <string name="add_class">Añadir Clase</string>
+    <string name="cancel">Cancelar</string>
+    <string name="hour_hint">Introduce la hora (HH:mm)</string>
+    <string name="subject_hint">Introduce la asignatura</string>
+    <string name="day">Selecciona un día</string>
+    <string name="view_schedule">Ver Horario</string>
+    <string name="what_now">¿Qué toca ahora?</string>
+    <string name="class_added">¡Clase añadida correctamente!</string>
+    <string name="fill_fields">Por favor, completa todos los campos para continuar</string>
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string-array name="days_array">
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+    </string-array>
+</resources>
