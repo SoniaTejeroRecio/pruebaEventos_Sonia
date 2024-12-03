@@ -13,7 +13,6 @@
         android:theme="@style/Theme.Prueba_Sonia"
         tools:targetApi="31">
 
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -25,25 +24,40 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".AppHorario.MainActivityHorario"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Prueba_Sonia" />
 
         <activity
-            android:name=".AddClassActivity"
+            android:name=".AppHorario.AddClassActivity"
             android:exported="true"
             android:label="@string/add_class"
             android:theme="@style/Theme.Prueba_Sonia" />
 
-
         <activity
-            android:name=".ViewScheduleActivity"
+            android:name=".AppHorario.ViewScheduleActivity"
             android:exported="true"
             android:label="@string/view_schedule"
             android:theme="@style/Theme.Prueba_Sonia" />
 
-
         <activity
-            android:name=".WhatNowActivity"
+            android:name=".AppHorario.WhatNowActivity"
             android:exported="true"
             android:label="@string/what_now"
+            android:theme="@style/Theme.Prueba_Sonia" />
+
+        <activity
+            android:name=".AppEventos.MainActivityEventos"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Prueba_Sonia" />
+
+        <activity
+            android:name=".AppEventos.RegisterEventActivity"
+            android:exported="true"
+            android:label="@string/app_name"
             android:theme="@style/Theme.Prueba_Sonia" />
 
     </application>

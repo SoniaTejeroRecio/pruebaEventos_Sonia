@@ -1,8 +1,9 @@
-package com.example.prueba_sonia
+package com.example.prueba_sonia.AppHorario
 
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.prueba_sonia.R
 import java.text.SimpleDateFormat
 import java.util.*
 

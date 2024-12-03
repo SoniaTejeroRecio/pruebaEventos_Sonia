@@ -1,4 +1,4 @@
-package com.example.prueba_sonia
+package com.example.prueba_sonia.AppHorario
 
 import android.os.Bundle
 import android.view.View
@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
+import com.example.prueba_sonia.R
 
 class ViewScheduleActivity : AppCompatActivity() {
 
