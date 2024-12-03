@@ -14,6 +14,8 @@
     <string name="wednesday">Miércoles</string>
     <string name="thursday">Jueves</string>
     <string name="friday">Viernes</string>
+    <string name="select_date">Seleccionar Fecha</string>
+    <string name="select_time">Seleccionar Hora</string>
     <string-array name="days_array">
         <item>@string/monday</item>
         <item>@string/tuesday</item>
