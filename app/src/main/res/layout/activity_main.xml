@@ -7,20 +7,18 @@
     android:padding="16dp">
 
     <Button
-        android:id="@+id/btnAddClass"
+        android:id="@+id/btnHorario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Añadir Clase" />
+        android:text="Aplicacion de horario"
+        android:minHeight="48dp"
+        android:padding="16dp" />
 
     <Button
-        android:id="@+id/btnViewSchedule"
+        android:id="@+id/btnEventos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ver Horario" />
-
-    <Button
-        android:id="@+id/btnWhatNow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="¿Qué toca ahora?" />
+        android:text="Aplicacion de eventos"
+        android:minHeight="48dp"
+        android:padding="16dp" />
 </LinearLayout>
