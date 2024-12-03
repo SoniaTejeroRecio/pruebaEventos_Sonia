@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">prueba_Sonia</string>
+    <!-- General -->
+    <string name="app_name">Prueba Sonia</string>
     <string name="add_class">Añadir Clase</string>
     <string name="cancel">Cancelar</string>
     <string name="hour_hint">Introduce la hora (HH:mm)</string>
@@ -9,13 +10,19 @@
     <string name="what_now">¿Qué toca ahora?</string>
     <string name="class_added">¡Clase añadida correctamente!</string>
     <string name="fill_fields">Por favor, completa todos los campos para continuar</string>
+
+    <!-- Días de la semana -->
     <string name="monday">Lunes</string>
     <string name="tuesday">Martes</string>
     <string name="wednesday">Miércoles</string>
     <string name="thursday">Jueves</string>
     <string name="friday">Viernes</string>
+
+    <!-- Botones y acciones -->
     <string name="select_date">Seleccionar Fecha</string>
     <string name="select_time">Seleccionar Hora</string>
+
+    <!-- Array de días -->
     <string-array name="days_array">
         <item>@string/monday</item>
         <item>@string/tuesday</item>
@@ -23,4 +30,15 @@
         <item>@string/thursday</item>
         <item>@string/friday</item>
     </string-array>
+
+    <!-- Eventos -->
+    <string name="event_title">Eventos</string>
+    <string name="register_event_title">Registrar Evento</string>
+    <string name="event_name_hint">Introduce el nombre del evento</string>
+    <string name="event_description_hint">Introduce una descripción</string>
+    <string name="event_address_hint">Introduce la dirección</string>
+    <string name="event_price_hint">Introduce el precio</string>
+    <string name="event_date_hint">Introduce la fecha del evento</string>
+    <string name="event_saved">¡Evento guardado correctamente!</string>
+    <string name="event_list_empty">No hay eventos registrados</string>
 </resources>

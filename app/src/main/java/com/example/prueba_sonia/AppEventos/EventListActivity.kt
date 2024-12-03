@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import android.widget.Button
 import com.example.prueba_sonia.R
 
-class MainActivityEventos : AppCompatActivity() {
+class EventListActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var eventAdapter: EventAdapter
@@ -16,7 +16,7 @@ class MainActivityEventos : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_eventos)
+        setContentView(R.layout.activity_event_list)
 
         recyclerView = findViewById(R.id.recyclerViewEvents)
         val btnAddEvent = findViewById<Button>(R.id.btnAddEvent)
@@ -27,22 +27,18 @@ class MainActivityEventos : AppCompatActivity() {
         recyclerView.adapter = eventAdapter
 
 
+        eventList.add(Event("Evento 1", "Descripción 1", "25,45€"))
+        eventList.add(Event("Evento 2", "Descripción 2", "10€"))
+        eventList.add(Event("Evento 3", "Descripción 3", "300€"))
+        eventList.add(Event("Evento 4", "Descripción 4", "Gratis"))
+
+
+        eventAdapter.notifyDataSetChanged()
+
+
         btnAddEvent.setOnClickListener {
             val intent = Intent(this, RegisterEventActivity::class.java)
-            startActivityForResult(intent, 1)
-        }
-    }
-
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == 1 && resultCode == RESULT_OK) {
-            val name = data?.getStringExtra("name")
-            val description = data?.getStringExtra("description")
-            val price = data?.getStringExtra("price")
-            if (name != null && description != null && price != null) {
-                eventList.add(Event(name, description, price))
-                eventAdapter.notifyDataSetChanged()
-            }
+            startActivity(intent)
         }
     }
 }

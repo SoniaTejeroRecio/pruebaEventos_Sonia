@@ -13,6 +13,7 @@
         android:theme="@style/Theme.Prueba_Sonia"
         tools:targetApi="31">
 
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -23,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
 
         <activity
             android:name=".AppHorario.MainActivityHorario"
@@ -48,16 +50,23 @@
             android:label="@string/what_now"
             android:theme="@style/Theme.Prueba_Sonia" />
 
+
         <activity
             android:name=".AppEventos.MainActivityEventos"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/event_title"
+            android:theme="@style/Theme.Prueba_Sonia" />
+
+        <activity
+            android:name=".AppEventos.EventListActivity"
+            android:exported="true"
+            android:label="@string/event_title"
             android:theme="@style/Theme.Prueba_Sonia" />
 
         <activity
             android:name=".AppEventos.RegisterEventActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/register_event_title"
             android:theme="@style/Theme.Prueba_Sonia" />
 
     </application>

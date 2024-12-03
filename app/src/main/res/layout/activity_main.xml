@@ -4,21 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp">
+
 
     <Button
         android:id="@+id/btnHorario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aplicacion de horario"
+        android:text="Aplicación de Horario"
         android:minHeight="48dp"
+        android:layout_marginBottom="16dp"
         android:padding="16dp" />
+
 
     <Button
         android:id="@+id/btnEventos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Aplicacion de eventos"
+        android:text="Aplicación de Eventos"
         android:minHeight="48dp"
         android:padding="16dp" />
 </LinearLayout>
