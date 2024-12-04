@@ -17,6 +17,7 @@ class FarmaciaAdapter(
         val iconImageView: ImageView = view.findViewById(R.id.icon)
         val nombreTextView: TextView = view.findViewById(R.id.textNombre)
         val telefonoTextView: TextView = view.findViewById(R.id.textTelefono)
+        val direccionTextView: TextView = view.findViewById(R.id.textDireccion)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FarmaciaViewHolder {
@@ -30,6 +31,7 @@ class FarmaciaAdapter(
         holder.iconImageView.setImageResource(R.drawable.ic_farmacia)
         holder.nombreTextView.text = farmacia.nombre
         holder.telefonoTextView.text = farmacia.telefono
+        holder.direccionTextView.text = farmacia.direccion
         holder.itemView.setOnClickListener { onClick(farmacia) }
     }
 

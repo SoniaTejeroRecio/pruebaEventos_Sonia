@@ -1,6 +1,5 @@
 package com.example.prueba_sonia.AppFarmacia
 
-
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -18,10 +17,8 @@ class MainActivityFarmacia : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerViewFarmacias)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-
         val jsonString = assets.open("farmacias.json").bufferedReader().use { it.readText() }
         val farmacias = parseFarmacias(jsonString)
-
 
         recyclerView.adapter = FarmaciaAdapter(farmacias) { farmacia ->
             val intent = Intent(this, MapActivity::class.java)
@@ -49,10 +46,9 @@ class MainActivityFarmacia : AppCompatActivity() {
             val coordenadas = geometry.getJSONArray("coordinates")
             val coords = listOf(coordenadas.getDouble(0), coordenadas.getDouble(1))
 
-            farmacias.add(Farmacia(nombre, telefono, coords))
+            farmacias.add(Farmacia(nombre, telefono, description, coords))
         }
 
         return farmacias
     }
 }
-
