@@ -1,11 +1,9 @@
 package com.example.prueba_sonia.AppFarmacia
 
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.prueba_sonia.R
@@ -16,6 +14,7 @@ class FarmaciaAdapter(
 ) : RecyclerView.Adapter<FarmaciaAdapter.FarmaciaViewHolder>() {
 
     class FarmaciaViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        val iconImageView: ImageView = view.findViewById(R.id.icon)
         val nombreTextView: TextView = view.findViewById(R.id.textNombre)
         val telefonoTextView: TextView = view.findViewById(R.id.textTelefono)
     }
@@ -28,6 +27,7 @@ class FarmaciaAdapter(
 
     override fun onBindViewHolder(holder: FarmaciaViewHolder, position: Int) {
         val farmacia = farmacias[position]
+        holder.iconImageView.setImageResource(R.drawable.ic_farmacia)
         holder.nombreTextView.text = farmacia.nombre
         holder.telefonoTextView.text = farmacia.telefono
         holder.itemView.setOnClickListener { onClick(farmacia) }
