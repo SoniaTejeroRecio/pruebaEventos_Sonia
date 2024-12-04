@@ -33,5 +33,11 @@
     <string name="event_date_hint">Enter the event date</string>
     <string name="event_saved">Event saved successfully!</string>
     <string name="event_list_empty">No events registered</string>
-</resources>
 
+    <string name="title_farmacias">Pharmacy List</string>
+    <string name="farmacia_details">Pharmacy Details</string>
+    <string name="farmacia_phone">Phone:</string>
+    <string name="farmacia_address">Address:</string>
+
+    <string name="map_activity_label">Map</string>
+</resources>

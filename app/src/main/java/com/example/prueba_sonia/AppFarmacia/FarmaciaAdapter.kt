@@ -1,8 +1,10 @@
 package com.example.prueba_sonia.AppFarmacia
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -18,6 +20,7 @@ class FarmaciaAdapter(
         val nombreTextView: TextView = view.findViewById(R.id.textNombre)
         val telefonoTextView: TextView = view.findViewById(R.id.textTelefono)
         val direccionTextView: TextView = view.findViewById(R.id.textDireccion)
+        val buttonMap: Button = view.findViewById(R.id.buttonMap)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FarmaciaViewHolder {
@@ -33,6 +36,11 @@ class FarmaciaAdapter(
         holder.telefonoTextView.text = farmacia.telefono
         holder.direccionTextView.text = farmacia.direccion
         holder.itemView.setOnClickListener { onClick(farmacia) }
+        holder.buttonMap.setOnClickListener {
+            val context = holder.itemView.context
+            val intent = Intent(context, MapActivity::class.java)
+            context.startActivity(intent)
+        }
     }
 
     override fun getItemCount() = farmacias.size

@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Prueba_Sonia"
         tools:targetApi="31">
 
-        <!-- Actividad principal (MainActivity) -->
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -49,7 +49,7 @@
             android:label="@string/what_now"
             android:theme="@style/Theme.Prueba_Sonia" />
 
-        <!-- Actividades de AppEventos -->
+
         <activity
             android:name=".AppEventos.MainActivityEventos"
             android:exported="true"
@@ -68,10 +68,17 @@
             android:label="@string/register_event_title"
             android:theme="@style/Theme.Prueba_Sonia" />
 
+
         <activity
             android:name=".AppFarmacia.MainActivityFarmacia"
             android:exported="true"
             android:label="@string/app_name"
+            android:theme="@style/Theme.Prueba_Sonia" />
+
+        <activity
+            android:name=".AppFarmacia.MapActivity"
+            android:exported="true"
+            android:label="@string/map_activity_label"
             android:theme="@style/Theme.Prueba_Sonia" />
 
     </application>

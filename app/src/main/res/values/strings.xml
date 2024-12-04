@@ -1,6 +1,5 @@
 <resources>
 
-    <!-- General -->
     <string name="app_name">Prueba Sonia</string>
     <string name="add_class">Añadir Clase</string>
     <string name="cancel">Cancelar</string>
@@ -12,18 +11,18 @@
     <string name="class_added">¡Clase añadida correctamente!</string>
     <string name="fill_fields">Por favor, completa todos los campos para continuar</string>
 
-    <!-- Días de la semana -->
+
     <string name="monday">Lunes</string>
     <string name="tuesday">Martes</string>
     <string name="wednesday">Miércoles</string>
     <string name="thursday">Jueves</string>
     <string name="friday">Viernes</string>
 
-    <!-- Botones y acciones -->
+
     <string name="select_date">Seleccionar Fecha</string>
     <string name="select_time">Seleccionar Hora</string>
 
-    <!-- Array de días -->
+
     <string-array name="days_array">
         <item>@string/monday</item>
         <item>@string/tuesday</item>
@@ -32,7 +31,7 @@
         <item>@string/friday</item>
     </string-array>
 
-    <!-- Eventos -->
+
     <string name="event_title">Eventos</string>
     <string name="register_event_title">Registrar Evento</string>
     <string name="event_name_hint">Introduce el nombre del evento</string>
@@ -43,10 +42,13 @@
     <string name="event_saved">¡Evento guardado correctamente!</string>
     <string name="event_list_empty">No hay eventos registrados</string>
 
-    <!-- Farmacias -->
+
     <string name="title_farmacias">Listado de Farmacias</string>
     <string name="farmacia_details">Detalles de la Farmacia</string>
     <string name="farmacia_phone">Teléfono:</string>
     <string name="farmacia_address">Dirección:</string>
+
+
+    <string name="map_activity_label">Mapa</string>
 
 </resources>
