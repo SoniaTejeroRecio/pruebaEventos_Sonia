@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -13,7 +12,7 @@
         android:theme="@style/Theme.Prueba_Sonia"
         tools:targetApi="31">
 
-
+        <!-- Actividad principal (MainActivity) -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -25,7 +24,7 @@
             </intent-filter>
         </activity>
 
-
+        <!-- Actividades de AppHorario -->
         <activity
             android:name=".AppHorario.MainActivityHorario"
             android:exported="true"
@@ -50,7 +49,7 @@
             android:label="@string/what_now"
             android:theme="@style/Theme.Prueba_Sonia" />
 
-
+        <!-- Actividades de AppEventos -->
         <activity
             android:name=".AppEventos.MainActivityEventos"
             android:exported="true"
@@ -67,6 +66,12 @@
             android:name=".AppEventos.RegisterEventActivity"
             android:exported="true"
             android:label="@string/register_event_title"
+            android:theme="@style/Theme.Prueba_Sonia" />
+
+        <activity
+            android:name=".AppFarmacia.MainActivityFarmacia"
+            android:exported="true"
+            android:label="@string/app_name"
             android:theme="@style/Theme.Prueba_Sonia" />
 
     </application>

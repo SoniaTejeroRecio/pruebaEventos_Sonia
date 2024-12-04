@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.prueba_sonia" />
+                  <option name="mobileSdkAppId" value="1:978996948010:android:421637b33bd666caf4a753" />
+                  <option name="projectId" value="pruebasonia-e42fe" />
+                  <option name="projectNumber" value="978996948010" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

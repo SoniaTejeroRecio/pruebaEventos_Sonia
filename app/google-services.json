@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "978996948010",
+    "project_id": "pruebasonia-e42fe",
+    "storage_bucket": "pruebasonia-e42fe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978996948010:android:421637b33bd666caf4a753",
+        "android_client_info": {
+          "package_name": "com.example.prueba_sonia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdldc-RsOg_OcDo24_PigSD7eNtLT0i8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978996948010:android:279dac8e5dcdbcfbf4a753",
+        "android_client_info": {
+          "package_name": "com.uax.pruebasonia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdldc-RsOg_OcDo24_PigSD7eNtLT0i8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

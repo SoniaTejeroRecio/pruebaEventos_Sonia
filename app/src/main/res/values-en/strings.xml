@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sonia Test</string>
+    <string name="add_class">Add Class</string>
+    <string name="cancel">Cancel</string>
+    <string name="hour_hint">Enter the time (HH:mm)</string>
+    <string name="subject_hint">Enter the subject</string>
+    <string name="day">Select a day</string>
+    <string name="view_schedule">View Schedule</string>
+    <string name="what_now">What\'s next?</string>
+    <string name="class_added">Class added successfully!</string>
+    <string name="fill_fields">Please fill in all fields to continue</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string-array name="days_array">
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+    </string-array>
+    <string name="event_title">Events</string>
+    <string name="register_event_title">Register Event</string>
+    <string name="event_name_hint">Enter the event name</string>
+    <string name="event_description_hint">Enter a description</string>
+    <string name="event_address_hint">Enter the address</string>
+    <string name="event_price_hint">Enter the price</string>
+    <string name="event_date_hint">Enter the event date</string>
+    <string name="event_saved">Event saved successfully!</string>
+    <string name="event_list_empty">No events registered</string>
+</resources>
+
